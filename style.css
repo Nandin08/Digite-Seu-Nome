@@ -6,25 +6,24 @@
 }
 
 header {
-  background-color: rgb(139, 140, 173);
+  
   justify-content: center;
   display: flex;
   text-align: center;
+  border-bottom: 2px solid #777;
 }
-h1 {
+header h1 {
  
  font-size: 2.0rem;
  font-family: "Rock Salt", cursive;
  padding: 10px;
+ color: #ffff;
 }
 
 
-p {
-  font-size: 1.3rem;
-  margin-top: 10px;
-  font-family: "Cabin", sans-serif;
-}
+
+
 
 body {
-  background-color: whitesmoke;
+  background-color:#202020;
 }
