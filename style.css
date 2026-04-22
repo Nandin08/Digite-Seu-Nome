@@ -45,8 +45,26 @@ body {
     background-color: #494949;
       border: none;
       outline: none;
-      color: #ffff;
+      color: #f3f3f3;
+      border-radius: 5px;
+      
 }
 
+#nome::placeholder {
+  color: rgb(212, 212, 212);
+}
 
+#botao {
+    width: 5vw;
+  padding: 0.6rem 1rem;
+    background-color: #b81b1b;
+      border: none;
+      color: #f3f3f3;
+      cursor: pointer;
+       transition: background-color 0.3s ease;
+       border-radius: 10px;
+}
 
+#botao:hover {
+  background-color: #770000;
+}
