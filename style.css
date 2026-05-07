@@ -30,13 +30,16 @@
     background-color: #202020;
   }
 
+
+
   #conteudo {
-    display: flex;
+  display: flex;
 
     align-items: center;
     justify-content: center;
     height: 45vh;
     margin: auto;
+    flex-direction: column;
 
   }
 
@@ -75,4 +78,8 @@
 
   #botao:hover {
     background-color: #770000;
+  }
+
+    #mensagem {
+    color: aliceblue;
   }
