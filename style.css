@@ -90,9 +90,12 @@
 
   @media (max-width: 768px) {
   #nome {
-    width: 80vw;
+    width: 60vw;
   }
   #botao {
     width: 20vw;
   }
+#conteudo {
+  flex-direction: row;
+}
 }
